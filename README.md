@@ -348,3 +348,4 @@ heroku run rails db:migrate db:seed db:examples
 1.  All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
 # family-activity-tracker-api-
+# family-activity-tracker-api-
