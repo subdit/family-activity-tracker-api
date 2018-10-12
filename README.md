@@ -1,4 +1,4 @@
-## Family ACtiviy Tracker ## 
+## Family Activiy Tracker ## 
 
 Inspring by the busy parents
 
