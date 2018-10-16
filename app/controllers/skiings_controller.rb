@@ -4,6 +4,7 @@ class SkiingsController < ProtectedController
   # GET /skiings
   def index
     @skiings = current_user.skiings.all
+    # @skiings = Skiing.all
 
     render json: @skiings
   end
@@ -40,12 +41,12 @@ class SkiingsController < ProtectedController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_skiing
-      @skiing = current_user.skiings.find(params[:id])
-    end
+  def set_skiing
+    @skiing = current_user.skiings.find(params[:id])
+  end
 
 
-    # Only allow a trusted parameter "white list" through.
+  # Only allow a trusted parameter "white list" through.
   def skiing_params
     params.require(:skiing).permit(:name, :date, :location)
   end

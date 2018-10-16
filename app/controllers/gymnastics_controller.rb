@@ -1,5 +1,5 @@
 class GymnasticsController < ApplicationController
-  before_action :set_gymnastic, only: [:show, :update, :destroy]
+before_action :set_gymnastic, only: [:show, :update, :destroy]
 
   # GET /gymnastics
   def index
@@ -39,13 +39,13 @@ class GymnasticsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_gymnastic
-      @gymnastic = Gymnastic.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_gymnastic
+    @gymnastic = Gymnastic.find(params[:id])
+  end
 
-    # Only allow a trusted parameter "white list" through.
-    def gymnastic_params
-      params.require(:gymnastic).permit(:name, :date, :location, :user_id)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def gymnastic_params
+    params.require(:gymnastic).permit(:name, :date, :location, :user_id)
+  end
 end
