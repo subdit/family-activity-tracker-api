@@ -1,7 +1,8 @@
 ## Family-Activiy-Tracker-API ##
 Inspring by the busy parents,
 
-## Backend link:https://github.com/subdit/family-activity-tracker-api :https://warm-sea-24073.herokuapp.com/
+## Backend link:https://github.com/subdit/family-activity-tracker-api
+              :https://warm-sea-24073.herokuapp.com/
 
 ## Links to the frontend :https://github.com/subdit/family-activity-tracker-client :https://subdit.github.io/family-activity-tracker-client/
 
@@ -10,19 +11,8 @@ A template for starting projects with rails-api. Includes authentication.
 At the beginning of each cohort, update the versions in Gemfile.
 
 ## Prerequisites
- @rails-api-examples-walkthrough
  @Dependencies
- @Install with bundle install.
-rails-api
-rails
-active_model_serializers
-ruby
-postgres
-Installation
-Download Template:
-Download this template.
-Unzip and rename the template directory (unzip ~/Downloads/rails-api-template-master.zip)
-Move into the new project and git init.
+ Install with bundle install.
 
 ## Customize Template:##
 @Setup Environment:
@@ -47,7 +37,7 @@ Move into the new project and git init.
   - Curl command scripts are stored in curl-scripts with names that correspond to API actions.
 
 ## User authentication is built-in ##
-@Tasks
+
 @Developers should run these often!
   - bin/rails routes lists the endpoints available in your API.
   - bin/rspec spec runs automated tests.
@@ -55,19 +45,19 @@ Move into the new project and git init.
   - bin/rails db opens your database client and loads the correct database.
   - bin/rails server starts the API.
 curl-scripts/*.sh run various curl commands to test the API. See below.
-API
+  - @API
 Use this as the basis for your own API documentation. Add a new third-level heading for your custom entities, and follow the pattern provided for the built-in user authentication documentation.
 
-Scripts are included in curl-scripts to test built-in actions. Add your own scripts to test your custom API. As an alternative, you can write automated tests in RSpec to test your API.
+  - Scripts are included in curl-scripts to test built-in actions. Add your own scripts to test your custom API. As an alternative, you can write automated tests in RSpec to test your API.
 
-Authentication
-Verb	URI Pattern	Controller#Action
-POST	/sign-up	users#signup
-POST	/sign-in	users#signin
-PATCH	/change-password	users#changepw
-DELETE	/sign-out	users#signout
-POST /sign-up
-Request:
+  - @Authentication
+    Verb	URI Pattern	Controller#Action
+    POST	/sign-up	users#signup
+    POST	/sign-in	users#signin
+    PATCH	/change-password	users#changepw
+    DELETE	/sign-out	users#signout
+    POST /sign-up
+    Request:
 
 curl http://localhost:4741/sign-up \
   --include \
