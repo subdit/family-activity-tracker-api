@@ -1,5 +1,7 @@
 ## Family-Activiy-Tracker-API ##
-Inspring by the busy parents,
+Inspring by a busy family
+
+## 
 
 ## Backend link:https://github.com/subdit/family-activity-tracker-api
               :https://warm-sea-24073.herokuapp.com/
