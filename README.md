@@ -16,7 +16,18 @@ This wireframe or ERD (Entity Relationship Diagram).
 This project can be expended from version 1 to version 2(one to many and many to many) and version 3 which I did not include in this project.
 
 ## Planning ##
-I start by setting up Model, Controller and authentication files and test the CRUD in cirl script that using localhost after all test pass I moving to the front-end client. 
+I start by setting up Model, Controller and authentication files and test the CRUD in cirl script that using localhost after all test pass I moving to the front-end client.
+
+## rails-api-template ##
+I start with Download the template from the links below
+: https://git.generalassemb.ly/ga-wdi-boston/rails-api-template/archive/master.zip
+rails-api-examples-walkthrough:
+: https://git.generalassemb.ly/ga-wdi-boston/rails-api-examples-walkthrough
+
+## The challenging ##
+My most challenging was setup Heroku to support the PostgreSQl database and link to the development to the production site.
+
+Tips: run the server in the same time both backend and Frontend
 
 ## Prerequisites
  @Dependencies
