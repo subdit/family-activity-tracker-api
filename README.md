@@ -1,16 +1,22 @@
 ## Family-Activiy-Tracker-API ##
-Inspring by a busy family
+The purpose of API repository of full stack web application is to support the Family-Activiy-Tracker (frontend) application for the user to interact with. This app allows the user to create, update, delete and view the activity events that users have create. This full stack application was inspring by a busy family.
 
-## 
+## Main Idea ##
+The main reason behind this project was from my own family, that I have a problem to keep track of the date for my children events and activities. I want to be able to use calendar to bookmark the events, and location. The most important thing is the users be able to create, update, view and delete their own event that they have creted.
 
-## Backend link:https://github.com/subdit/family-activity-tracker-api
-              :https://warm-sea-24073.herokuapp.com/
+API deployed: https://warm-sea-24073.herokuapp.com/
+API repo: https://github.com/subdit/family-activity-tracker-api
 
-## Links to the frontend :https://github.com/subdit/family-activity-tracker-client :https://subdit.github.io/family-activity-tracker-client/
+## Links to Client frontend ##
+Family-Activity-Tracker-client:https://github.com/subdit/family-activity-tracker-client
 
-## rails-api-template
-A template for starting projects with rails-api. Includes authentication.
-At the beginning of each cohort, update the versions in Gemfile.
+## Wireframe ##
+Under developing
+This wireframe or ERD (Entity Relationship Diagram).
+This project can be expended from version 1 to version 2(one to many and many to many) and version 3 which I did not include in this project.
+
+## Planning ##
+I start by setting up Model, Controller and authentication files and test the CRUD in cirl script that using localhost after all test pass I moving to the front-end client. 
 
 ## Prerequisites
  @Dependencies
