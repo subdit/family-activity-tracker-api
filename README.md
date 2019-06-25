@@ -1,4 +1,4 @@
-## Family-Activiy-Tracker-API ##
+## Family-Activity-Tracker-API ##
 The purpose of API repository of full stack web application is to support the Family-Activity-Tracker (frontend) application for the user to interact with. This app allows the user to create, update, delete and view the activity events that users have create. This full stack application was inspring by a busy family.
 
 ## Main Idea ##
@@ -16,7 +16,7 @@ This wireframe or ERD (Entity Relationship Diagram).
 This project can be expended from version 1 to version 2(one to many and many to many) and version 3 which I did not include in this project.
 
 ## Planning ##
-I start by setting up Model, Controller and authentication files and test the CRUD in cirl script that using localhost after all test pass I moving to the front-end client.
+I start by setting up Model, Controller and authentication files and test the CRUD in curl script that using localhost after all test passed I moving to the front-end client.
 
 ## rails-api-template ##
 I start with Download the template from the links below
