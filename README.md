@@ -25,7 +25,7 @@ rails-api-examples-walkthrough:
 : https://git.generalassemb.ly/ga-wdi-boston/rails-api-examples-walkthrough
 
 ## The challenging ##
-My most challenging was setup Heroku to support the PostgreSQl database and link to the development to the production site.
+My most challenging was setup Heroku to support the PostgreSQL database and link to the development to the production site.
 
 Tips: run the server in the same time both backend and Frontend
 
